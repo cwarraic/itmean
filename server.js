@@ -23,7 +23,7 @@ var db;
 
 // mongodb.MongoClient.connect(process.env.MONGODB_URI, function (err, database) { 
 
-var uri = 'mongodb://james:james@ds157980.mlab.com:57980/restfullness';
+var uri = 'mongodb://sandy:sandy@ds131340.mlab.com:31340/betterest';
 
 mongodb.MongoClient.connect(uri, function (err, database) {
     if (err) {
